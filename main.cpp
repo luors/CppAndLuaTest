@@ -4,11 +4,7 @@ using namespace std;
 #include <stdio.h>
 #include <string.h>
 
-extern "C" {
-#include <lua.h>
-#include <lualib.h>
-#include <lauxlib.h>
-}
+#include "lua.hpp"
 
 int test(){
 	lua_State *L = luaL_newstate();
