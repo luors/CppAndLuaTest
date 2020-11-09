@@ -2,13 +2,11 @@
 local main = {}
 
 local task = require "task.init"
+local item = require "item.init"
 
 function OnMessage1( cmd , ...)
-
 	print "this is main OnMessage"
-
 end
-
 
 
 local comm = require "comm"

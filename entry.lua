@@ -1,5 +1,5 @@
 
-package.path = package.path .. ";" .."./script/?.lua"
+package.path = package.path ..";./script/?.lua"
 
 local main = require "main"
 local task = require "task.init"
